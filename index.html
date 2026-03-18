@@ -236,7 +236,7 @@
             reportNo: `PM-${new Date().getFullYear()}${String(new Date().getMonth() + 1).padStart(2, '0')}${String(new Date().getDate()).padStart(2, '0')}-001`,
             customerName: '', checkDate: new Date().toISOString().split('T')[0],
             contractor: '(주)가리온정보기술', engineer: '', department: '기술부', customerManager1: '', driveLink: '', engineerSignature: '', customerSignature: '',
-            staticSystems: [{ id: 1, type: 'DL380 Gen9', hostName: 'PACS01', ip: '10.0.0.4', os: 'Windows Server 2016', specs: 'RAM 64GB / HDD 10TB', installDate: '20.05.10' }],
+            staticSystems: [{ id: 1, type: 'DL380G9', hostName: 'PACS01', ip: '10.0.0.4', os: 'Windows Server 2016', specs: 'Gold 7777@3.5GHz / 32GB / 480GB x 2 / RAID 1', installDate: '20.05.10' }],
             winHealthChecks: [...defaultWinHealthChecks], linuxHealthChecks: [...defaultLinuxHealthChecks],
             volumes: [{ id: 1, group: 'main', serverName: 'PACS01', drive: 'C:\\', total: 139, prevFree: '88.0', free: 86.3, note: 'OS', hiddenInPrint: false, showDivider: false }],
             linuxVolumes: [], extraWinTables: [], extraLinuxTables: [],
